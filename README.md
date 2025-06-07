@@ -1,4 +1,4 @@
-# 🧠 Local RAG with Ollama + ChromaDB
+# Local RAG with Ollama + ChromaDB
 
 This is a **naive but functional Retrieval-Augmented Generation (RAG)** pipeline that runs **fully locally**
 
@@ -7,7 +7,7 @@ It combines:
 - **LangChain text splitting** for chunking documents
 - **Ollama** for local LLM inference and embeddings (`nomic-embed-text` and `llama3.1`)
 
-## ⚙️ What It Does
+## What It Does
 - Loads plain text documents from an `articles/` directory
 - Splits them into manageable chunks
 - Embeds each chunk using `nomic-embed-text`
@@ -34,7 +34,7 @@ This can serve as a starting point for:
 - LangChain (text splitter)
 - uuid
 
-## 🛠️ Setup
+## Setup
 ```bash
 # 1. Install Ollama and run the models locally
 ollama run llama3
